@@ -29,41 +29,41 @@ try {
 ```php
 $getTreeFiles('./', 2, true, ['js', 'css']);
 
-//Folder/Directory
+//Folder|Directory Array
 [0] => Array (
     [name] => bower_components  //String
     [type] => dir //String
     [path] => /home/jhordan/PhpstormProjects/tree_files/bower_components/ //String
     [readable] => true //Boolean 
     [writable] => true //Boolean 
-    [tree] => Array (
+    [tree] => Array ( //Folder|Directory Array
         [0] => Array (
-            [name] => bootstrap
-            [type] => dir
-            [path] => /home/jhordan/PhpstormProjects/tree_files/bower_components/bootstrap/
+            [name] => bootstrap //String
+            [type] => dir //String
+            [path] => /home/jhordan/PhpstormProjects/tree_files/bower_components/bootstrap/ //String
             [readable] => true //Boolean 
             [writable] => true //Boolean 
-            [tree] =>      Array ( )
+            [tree] =>  Array () //Folder|Directory Array
             )
         [1] => Array (
-            [name] => jquery
-            [type] => dir
+            [name] => jquery //String
+            [type] => dir //String
             [path] => /home/jhordan/PhpstormProjects/tree_files/bower_components/jquery/
-            [readable] => 1
-            [writable] => 1
-            [tree] =>      Array ( )
+            [readable] => true //Boolean 
+            [writable] => true //Boolean 
+            [tree] =>  Array () //Folder|Directory Array
             )
         )
     )
 [1] => Array (
-    [name] => style.css
-    [only_name] => style
-    [type] => file
-    [size] => 1.379
-    [path] => /home/jhordan/PhpstormProjects/tree_files/style.css
-    [extension] => css
-    [readable] => 1
-    [writable] => 1
+    [name] => style.css //String
+    [only_name] => style //String
+    [type] => file //String
+    [size] => 1.379 //Double
+    [path] => /home/jhordan/PhpstormProjects/tree_files/style.css //String
+    [extension] => css //String
+    [readable] => true //Boolean 
+    [writable] => true //Boolean
     )
 
 ```
