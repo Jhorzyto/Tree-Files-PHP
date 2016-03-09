@@ -12,6 +12,8 @@ try {
 	$treeFiles = [];
 	$message   = $e->getMessage();
 }
+
+//More in index.php file
 ```
 
 **How to use**
